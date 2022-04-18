@@ -1,4 +1,5 @@
 @import "css/header.css";
+@import "css/sidenav.css";
 
 body, p, h1, ul, li blockquote {
     padding: 0;
@@ -31,10 +32,6 @@ img {
         "sidenav content anuncios"
         "footer footer footer"
     ;
-}
-
-.sidenav {
-    grid-area: sidenav;
 }
 
 .content {
