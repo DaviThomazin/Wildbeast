@@ -48,6 +48,40 @@ p {
     font-size: 0.875em;
 }
 
+.destaque {
+    font-size: 0.875em;
+    color: #b07dfb;
+    max-width: 16em;
+}
+
+.citacao, .atributos {
+    align-self: flex-start;
+    background-image: linear-gradient(135deg, #8844ee, #B07DFB);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
+
+.citacao p {
+    color: #ffffff;
+    font-size: 1.5em;
+    max-width: 500px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.atributos li {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.125em;
+    padding: 15px;
+}
+
+.atributos li + li {
+    border-top: 1px solid #B07DFB;
+}
+
 /* Características */
 
 .caracteristicas {
