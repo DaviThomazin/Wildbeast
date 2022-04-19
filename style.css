@@ -1,5 +1,7 @@
 @import "css/header.css";
 @import "css/sidenav.css";
+@import "css/anuncios.css";
+@import "css/footer.css";
 
 body, p, h1, ul, li blockquote {
     padding: 0;
@@ -19,7 +21,9 @@ a {
 }
 
 img {
+    display: block;
     max-width: 100%;
+    border-radius: 5px;
 }
 
 /* Grid geral */
@@ -36,12 +40,4 @@ img {
 
 .content {
     grid-area: content;
-}
-
-.anuncios {
-    grid-area: anuncios;
-}
-
-.footer {
-    grid-area: footer;
 }
