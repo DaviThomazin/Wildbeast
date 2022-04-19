@@ -2,6 +2,7 @@
 @import "css/sidenav.css";
 @import "css/anuncios.css";
 @import "css/footer.css";
+@import "css/content.css";
 
 body, p, h1, ul, li blockquote {
     padding: 0;
@@ -36,8 +37,4 @@ img {
         "sidenav content anuncios"
         "footer footer footer"
     ;
-}
-
-.content {
-    grid-area: content;
 }
